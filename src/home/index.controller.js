@@ -35,7 +35,8 @@ function(scope, $filter, CommandDAO) {
 	}
 
 	vm.quit = function(){
-		window.close();
+		//window.close();
+		ipcRenderer.send('window-all-closed');
 	}
 
 	vm.showSettings = function(){

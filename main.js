@@ -22,7 +22,7 @@ app.on('ready', () => {
 })
 
 // Quit the app when the window is closed
-app.on('window-all-closed', () => {
+ipcMain.on('window-all-closed', () => {
 	app.quit()
 })
 
