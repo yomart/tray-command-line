@@ -1,0 +1,34 @@
+{
+  "name": "commands",
+  "productName": "Commands",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "Elga Yomart",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ --platform=darwin --arch=x64 --out=out --icon=./icon.icns --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yomart/tray-command-line.git"
+  },
+  "keywords": [
+    "tray",
+    "command",
+    "electron",
+    "loki"
+  ],
+  "bugs": {
+    "url": "https://github.com/yomart/tray-command-line/issues"
+  },
+  "homepage": "https://github.com/yomart/tray-command-line#readme",
+  "dependencies": {
+    "lokijs": "^1.4.1",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.3.0",
+    "electron-prebuilt": "^1.2.7"
+  }
+}

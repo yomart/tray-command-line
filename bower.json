@@ -1,0 +1,25 @@
+{
+  "name": "tray-command-line",
+  "version": "1.0.1",
+  "homepage": "",
+  "authors": [
+    "Elga Yomart"
+  ],
+  "keywords": [
+    "tray",
+    "electron",
+    "loki",
+    "command-line"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.7.0",
+    "angular": "~1.5.8",
+    "material-design-lite": "~1.0.4"
+  }
+}
