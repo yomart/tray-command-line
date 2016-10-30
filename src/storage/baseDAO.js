@@ -35,5 +35,9 @@ angular
         this.getAll = function() {
 					return (this.getCollection()) ? this.getCollection().data : null;
         };
+
+				this.getAllBy = function(filter) {
+					return this.getCollection().find(filter);
+				};
     }])
     ;

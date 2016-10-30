@@ -18,7 +18,7 @@ function(scope, $filter, CommandDAO) {
 	//ipcRenderer.on('info' , function(event , data){ console.log(data.msg) });
 
 	var reload = function(){
-		vm.commands = CommandDAO.getAll();
+		vm.commands = CommandDAO.getAllBy({show:true});
 		orderCommands();
 	}
 
