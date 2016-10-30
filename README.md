@@ -1,4 +1,4 @@
-# Tray Example
+# Tray Command Line
 
 App used for Mac OS X as a tray app with a popover
 using [Electron](http://electron.atom.io).
