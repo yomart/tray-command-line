@@ -20,5 +20,5 @@ npm start
 
 ```sh
 npm run package
-open out/Weathered-darwin-x64/Commands.app
+open out/Commands-darwin-x64/Commands.app
 ```
